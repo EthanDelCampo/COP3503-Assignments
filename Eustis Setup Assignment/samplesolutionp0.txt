@@ -1,0 +1,6 @@
+The current month is August.
+The current year is 2024.
+I am a student at the University of Central Florida.
+I am taking Dr. Steinberg's Computer Science 2 Course!
+I am so excited to learn more algorithms and advanced data structures!
+Marvel Studios released Deadpool and Wolverine this past Summer.
