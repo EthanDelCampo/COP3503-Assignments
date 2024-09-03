@@ -1,0 +1,11 @@
+Testing to See if Player 1 will always win with the 10 random seeds.
+Game 1 Pass!
+Game 2 Pass!
+Game 3 Pass!
+Game 4 Pass!
+Game 5 Pass!
+Game 6 Pass!
+Game 7 Pass!
+Game 8 Pass!
+Game 9 Pass!
+Game 10 Pass!
