@@ -40,7 +40,8 @@ public class Game
             {
                 return true;
             }
-            else {
+            else 
+            {
                 return false;
             }
 
@@ -51,7 +52,8 @@ public class Game
             if((currentC + 1) <= 7){
                 return true;
             }
-            else {
+            else 
+            {
                 return false;
             }
 
@@ -62,7 +64,8 @@ public class Game
             if((currentR + 1) <= 7){
                 return true;
             }
-            else {
+            else 
+            {
                 return false;
             }
 
@@ -150,7 +153,8 @@ public class Game
         }
 
         //Random move is downward
-        else {
+        else 
+        {
             return moves[2];
         }
 
@@ -176,6 +180,7 @@ public class Game
 
         //Actually moves the piece for player 2 and updates indices
         movePiece(move, currentR, currentC);
+
 
     }
 
@@ -220,7 +225,7 @@ public class Game
         }
        
         //Default case
-        else return 'n';
+        else return 0;
     }
 
 
@@ -230,7 +235,7 @@ public class Game
         //Moves diagonally at start of game
         if((currentR == 0) && (currentC == 0))
         {
-            movePiece('d', currentR, currentC);
+            movePiece(moves[0], currentR, currentC);
         }
 
         /*
@@ -240,7 +245,7 @@ public class Game
         */
         else if((currentR == 1) && (currentC < 7))
         {
-            movePiece('r', currentR, currentC);
+            movePiece(moves[1], currentR, currentC);
         }
 
         /*
@@ -250,7 +255,7 @@ public class Game
          */
         else if((currentC == 1) && (currentR < 7))
         {
-            movePiece('d', currentR, currentC);
+            movePiece(moves[2], currentR, currentC);
         }
 
         /* 
@@ -285,7 +290,6 @@ public class Game
             {
                 return 1;
             }
-
             //Simulates Player 2 (the computer)'s turn
             playerTwoTurn(selectPlayerTwoMove(), this.currentPositionR, this.currentPositionC);
 
