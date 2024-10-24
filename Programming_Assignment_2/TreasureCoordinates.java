@@ -54,7 +54,7 @@ public class TreasureCoordinates
 
 
     // Backtracking function that generates possible valid decimal coordinates
-    public void backTrackingDecimal(ArrayList<String> decimals, String originalString, StringBuilder newString, int index, boolean isThereDecimal)
+    private void backTrackingDecimal(ArrayList<String> decimals, String originalString, StringBuilder newString, int index, boolean isThereDecimal)
     {
 
         //Base case where index equals original length
@@ -102,7 +102,7 @@ public class TreasureCoordinates
 
 
     //Function that ensures a decimal is valid
-    public boolean isValidDecimal(StringBuilder decimal)
+    private boolean isValidDecimal(StringBuilder decimal)
     {
 
         //Converting StringBuilder to String
@@ -139,7 +139,7 @@ public class TreasureCoordinates
 
 
     //Checks if decimal has at least one trailing zero
-    public boolean areTrailingZeroes(String decimalStr)
+    private boolean areTrailingZeroes(String decimalStr)
     {
 
         //If not a decimal, automatically return false
