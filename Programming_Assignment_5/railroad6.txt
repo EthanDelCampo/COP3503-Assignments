@@ -1,0 +1,8 @@
+Miami FortLauderdale 60
+FortLauderdale PompanoBeach 5
+PompanoBeach BocaRaton 7
+BocaRaton WestPalmBeach 20
+WestPalmBeach Stuart 14
+Stuart Orlando 36
+Orlando Gainesville 42
+Gainesville Tallahassee 38
