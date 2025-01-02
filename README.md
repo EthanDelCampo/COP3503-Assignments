@@ -1,4 +1,4 @@
 # COP3503-Assignments
-Assignments for Computer Science II with Dr. Steinberg, Fall 2024
+Assignments for my Computer Science II (Data Structures and Algorithms II) course, Fall 2024 at the University of Central Florida.
 
-Also contains sample programs (those were used in lecture) to better understand concepts for exam prep
+Also contains select) sample programs (those were used in lecture) to better understand concepts for exam prep.
